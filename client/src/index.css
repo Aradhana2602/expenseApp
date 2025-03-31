@@ -11,3 +11,10 @@
 .navbar{
   background-color: rgba(0, 0, 0, 0.267) !important;
 }
+
+.register-page{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+}
