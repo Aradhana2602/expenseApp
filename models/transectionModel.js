@@ -1,14 +1,14 @@
-const mongoose = reuire("mongoose");
+const mongoose = require("mongoose");
 
 const transectionSchema = new mongoose.Schema(
   {
     amount: {
-      type: nunmber,
+      type: Number,
       required: [true, "amount is required"],
     },
     category: {
       type: String,
-      requires: [truw, "cat is required"],
+      required: [true, "cat is required"],
     },
     refrence: {
       type: String,
@@ -25,4 +25,4 @@ const transectionSchema = new mongoose.Schema(
   { timestamps: true }
 );
 
-const transetionModel = mongoose.model("transection", transectionSchema);
+const transetionModel = mongoose.model("transections", transectionSchema);
