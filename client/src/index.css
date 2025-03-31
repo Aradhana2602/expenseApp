@@ -1,18 +1,14 @@
-*{
+* {
   padding: 0;
   margin: 0;
-  box-sizing:border-box ;
+  box-sizing: border-box;
 }
 
-.content{
-  height:80vh;
+.content {
+  height: 80vh;
 }
 
-.navbar{
-  background-color: rgba(0, 0, 0, 0.267) !important;
-}
-
-.register-page{
+.resgister-page {
   display: flex;
   align-items: center;
   justify-content: center;
